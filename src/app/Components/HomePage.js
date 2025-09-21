@@ -7,7 +7,7 @@ const HomePage = () => {
     return (
 
         <div className="hero">
-            {/* ===== NAVBAR ===== */}
+
             <header className="navbar">
                 <div className="logo">
                     <div className="logo-icon">
@@ -17,7 +17,7 @@ const HomePage = () => {
                 </div>
             </header>
 
-            {/* ===== HERO CONTENT ===== */}
+
             <div className="hero-content">
                 <span className="tag">Advanced AI Technology</span>
                 <h1>
@@ -41,7 +41,7 @@ const HomePage = () => {
                 </div>
             </div>
 
-            {/* ===== FEATURES SECTION ===== */}
+
             <section className="platforms">
                 <h2>Two Platforms, One Solution</h2>
                 <p>
@@ -50,7 +50,7 @@ const HomePage = () => {
                 </p>
 
                 <div className="cards">
-                    {/* Card 1 */}
+
                     <div className="card">
                         <div className="card-header">
                             <div className="icon-container">
@@ -59,7 +59,7 @@ const HomePage = () => {
                             <h3>Web Platform for Families</h3>
                             <p>Complete control panel to supervise and manage your loved one's care</p>
                         </div>
-                        {/* Video in Card 1 */}
+
                         <div className="card-image">
                             <video
                                 src="/Videos/webAdmin.mp4"
@@ -77,7 +77,6 @@ const HomePage = () => {
                         </ul>
                     </div>
 
-                    {/* Card 2 */}
                     <div className="card">
                         <div className="card-header">
                             <div className="icon-container">
@@ -86,7 +85,7 @@ const HomePage = () => {
                             <h3>AI Mobile App</h3>
                             <p>Intelligent assistant that describes the environment and guides navigation</p>
                         </div>
-                        {/* Video in Card 2 */}
+
                         <div className="card-image">
                             <video
                                 src="/Videos/AppMovil.mp4"
@@ -107,7 +106,6 @@ const HomePage = () => {
                 </div>
             </section>
 
-            {/* ===== HOW IT WORKS SECTION ===== */}
             <section className="how-it-works">
                 <h2>How It Works</h2>
                 <p className="subtitle">
@@ -116,7 +114,7 @@ const HomePage = () => {
                 </p>
 
                 <div className="steps">
-                    {/* Step 1 */}
+
                     <div className="step">
                         <div className="circle">1</div>
                         <h3>Family Registration</h3>
@@ -126,7 +124,7 @@ const HomePage = () => {
                         </p>
                     </div>
 
-                    {/* Step 2 */}
+
                     <div className="step">
                         <div className="circle">2</div>
                         <h3>Device Setup</h3>
@@ -136,7 +134,7 @@ const HomePage = () => {
                         </p>
                     </div>
 
-                    {/* Step 3 */}
+
                     <div className="step">
                         <div className="circle">3</div>
                         <h3>Independent Navigation</h3>
@@ -148,7 +146,7 @@ const HomePage = () => {
                 </div>
             </section>
 
-            {/* ===== ADVANCED FEATURES ===== */}
+
             <section className="features-advanced">
                 <h2>Advanced Features</h2>
                 <p className="subtitle">
@@ -199,7 +197,7 @@ const HomePage = () => {
                 </div>
             </section>
 
-            {/* ===== CALL TO ACTION ===== */}
+
             <section className="cta">
                 <h2>Start Transforming Lives Today</h2>
                 <p>
@@ -208,7 +206,7 @@ const HomePage = () => {
                 </p>
             </section>
 
-            {/* ===== FOOTER ===== */}
+
             <footer className="footer">
                 <div className="footer-bottom">
                     <p>© 2024 EyeAssist. All rights reserved.</p>

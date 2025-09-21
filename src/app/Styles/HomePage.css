@@ -1,4 +1,4 @@
-/* ===== HERO GENERAL ===== */
+
 .hero {
     background-color: #000;
     color: #fff;
@@ -9,7 +9,7 @@
     padding: 20px;
 }
 
-/* ===== NAVBAR ===== */
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -25,14 +25,14 @@
 
 .logo-icon {
     background: #00bcd4;
-    /* Fondo turquesa */
+  
     color: #fff;
-    /* Icono blanco */
+   
     font-size: 1.2rem;
-    /* Tamaño del icono */
+   
     padding: 6px;
     border-radius: 8px;
-    /* Bordes redondeados */
+    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -68,7 +68,7 @@
     background: #ddd;
 }
 
-/* ===== CONTENIDO PRINCIPAL ===== */
+
 .hero-content {
     text-align: center;
     padding: 60px 20px;
@@ -135,7 +135,7 @@
     background: #222;
 }
 
-/* ===== SECCIÓN INFERIOR ===== */
+
 .trusted {
     text-align: center;
     margin: 40px 0;
@@ -159,7 +159,7 @@
     color: #bbb;
 }
 
-/* ===== SECCIÓN PLATAFORMAS ===== */
+
 .platforms {
     text-align: center;
     padding: 80px 20px;
@@ -194,9 +194,9 @@
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
     height: 650px;
     border: 2px solid transparent;
-    /* <-- por defecto sin borde */
+  
     transition: all 0.3s ease;
-    /* transición suave */
+   
 }
 
 .card-header {
@@ -223,7 +223,7 @@
 
 .card-image {
   width: 100%;
-  height: 300px; /* ajusta según necesites */
+  height: 300px;
   border-radius: 10px;
   overflow: hidden;
   margin-bottom: 15px;
@@ -233,7 +233,7 @@
 .card-video {
   width: 100%;
   height: 100%;
-  object-fit: cover; /* mantiene proporción, recorta si es necesario */
+  object-fit: cover; 
   border-radius: 10px;
 }
 
@@ -251,7 +251,7 @@
     color: #00bcd4;
 }
 
-/* Contenedor para los íconos principales */
+
 .icon-container {
     background: #03161a;
     display: inline-flex;
@@ -260,7 +260,7 @@
     width: 50px;
     height: 50px;
     border-radius: 10px;
-    /* puedes poner 50% si quieres círculo */
+   
     margin-bottom: 15px;
 }
 
@@ -271,13 +271,13 @@
 
 .card:hover {
     border: 2px solid #00a9b3;
-    /* borde al pasar el mouse */
+  
     box-shadow: 0 0 20px rgba(0, 169, 179, 0.4);
-    /* glow sutil */
+
 }
 
 
-/* ===== HOW IT WORKS ===== */
+
 .how-it-works {
     text-align: center;
     padding: 80px 20px;
@@ -332,7 +332,6 @@
     line-height: 1.4;
 }
 
-/* ===== ADVANCED FEATURES ===== */
 .features-advanced {
     text-align: center;
     padding: 80px 20px;
@@ -398,7 +397,7 @@
     line-height: 1.4;
 }
 
-/* ===== CALL TO ACTION ===== */
+
 .cta {
     text-align: center;
     padding: 80px 20px;
@@ -437,7 +436,7 @@
     background: #222;
 }
 
-/* ===== FOOTER ===== */
+
 .footer {
     background: #000;
     color: #aaa;
